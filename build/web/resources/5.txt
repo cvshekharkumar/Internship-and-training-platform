@@ -1,0 +1,80 @@
+Task 1
+
+x is large
+
+what will be the output when x = 10.nothing output
+
+Task 2
+
+Good score
+Next#28
+
+what will be the output when m = 5.
+Next#10
+
+Task 3
+
+6
+
+what will be the output when a = 490 and b = 11.
+88
+
+Task 4
+
+In Else
+20
+
+what will be the output when n = 80
+
+In If
+95
+
+Task 5
+
+Perfect#Python
+
+what will be the output when course = 2
+Perfect#Android
+
+Task 6
+
+n=input("")
+if(n>0):
+ print("Non-Negative")
+else:
+ print("Negative")
+
+Task 7
+
+
+n=input("")
+
+if(n%2==0):
+
+ m=n*n
+
+ print(m)
+
+else:
+
+ m=n*n*n
+
+ print(m)
+
+Task 8
+
+n=input("")
+if(n%2==0):
+ print(n)
+else:
+ n=n+1
+ print(n)
+
+Task 9
+
+n=input("Absolute=")
+if(n<0):
+ n=(n*(-1))
+ print(n)
+else:
+ print(n)

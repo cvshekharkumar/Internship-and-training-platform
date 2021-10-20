@@ -1,0 +1,103 @@
+Task 1 
+
+9
+Hello::Java
+
+what is the expected output when 
+(1)str="Germany"
+7
+Germa::ny
+
+(2) str="Rugby'
+5
+Rugby::
+
+Task 2
+
+8127
+
+what is the expected output when
+(1)s1="9192939"
+123
+
+(2)s1="999"
+No Output
+
+Task 3
+
+PythonM@ster
+
+what is the expected output when
+(1)s1="BatRatCat"
+B@tR@tC@t
+
+(2)s1="aaa"
+@@@
+
+(3)s1 = "bcd"
+bcd
+
+Task 4
+
+a0b1c2
+
+What is the expected output when
+(1)s1 = "hello"
+h0e1l2l3o4
+
+(2)s1="Z"
+Z0
+
+Task 5
+
+s1 = input("")
+s2 = ""
+len1 = len(s1)
+for i in range(0,len1) :
+ ch1 = s1[i]
+ if (ch1==s1[0]) :
+  s2 = s2 + ""
+ else :
+  s2 = s2 + ch1
+print(s2)
+
+Task 6
+
+s1 = input("")
+s2 = ""
+len1 = len(s1)
+for i in range(0,len1) :
+ ch1 = s1[i]
+ if (ch1!="z") :
+  s2 = s2 + ch1
+ else :
+  s2 = s2 + "x"
+print(s2)
+
+Task 7
+
+s1 = input("")
+s2 = ""
+len1 = len(s1)
+for i in range (0,len1) :
+ ch1 = s1[i]
+ if ch1!="m" :
+  s2 = s2 + ch1;
+print(s2)
+
+Task 8
+
+s1 = input("")
+s2 = ""
+z=0
+len1 = len(s1)
+for i in range(0,len1) :
+ ch1 = s1[i]
+ z=z+1
+ if (z%2==0) :
+  s2 = s2 + ""
+ else :
+  s2 = s2 + ch1
+print(s2)
+
+

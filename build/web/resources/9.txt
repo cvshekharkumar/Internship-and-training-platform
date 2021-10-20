@@ -1,0 +1,99 @@
+Task 1 
+
+7
+8
+0
+12
+
+Task 2
+
+At Index=0, char=9
+At Index=1, char=8
+At Index=2, char=1
+At Index=3, char=2
+At Index=4, char=7
+98127
+
+What is the expected output when
+(1) s1="Job"
+
+At Index=0, char=J
+At Index=1, char=o
+At Index=2, char=b
+Job
+
+(2) s1=""
+(no output)
+
+Task 3
+
+Different 1:2
+
+What is the expected output when 
+(i) s1="x",s2="x" 
+Same x
+(ii) s1="ABC", s2="ABCD"
+Different ABC:ABCD
+(iii) s1="Hello", s2="Hello"
+Same Hello
+
+Task 4 
+
+a is at index:0
+a is at index:3
+Checked
+
+What is the expected output when 
+(1) s1 = "AAaxAba"
+
+a is at index:2
+a is at index:6
+Checked
+
+Task 5
+
+s1 = input("")
+len1 = len(s1)
+if len1 > 5 :
+   print("Long")
+else:
+   print("Short")
+
+Task 6
+
+s1 = input("")
+len1 = len(s1)
+count=0
+for i in range(0,len1) :
+ ch1 = s1[i]
+ if ch1=="z" :
+     count=count+1
+print("Count of z="+str(count))
+
+Task 7
+
+s1 = input("")
+len1 = len(s1)
+count=0
+count2=0
+for i in range(0,len1) :
+ ch1 = s1[i]
+ ch2 = s1[i]
+ if ch1=="x" :
+     count=count+1  
+ if ch2=="y":
+     count2=count2+1
+print("x="+str(count))
+print("y="+str(count2))
+
+Task 8
+
+s1 = input("")
+len1 = len(s1)
+for i in range(0,len1) :
+ ch1 = s1[i]
+ ch2 = s1[i]
+ if ch1=="a" :
+  print("a is at index:"+str(i))
+ if ch2=="b" :
+  print("b is at index:"+str(i))
